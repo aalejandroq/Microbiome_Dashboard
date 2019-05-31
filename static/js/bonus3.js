@@ -15,7 +15,7 @@ function buildGauge(sample) {
     // Path: may have to change to create a better triangle
     // var mainPath = 'M -.0 -0.025 0.025 L .0 0.025 -0.025 L ',
     // var mainPath = 'M 0.235 0.5 L 0.24 0.62L ',
-    var mainPath = 'M .0 0.0 L .0 0.0 L ',
+    var mainPath = 'M 0 0 L',
         pathX = String(x),
         space = ' ',
         pathY = String(y),
@@ -25,10 +25,9 @@ function buildGauge(sample) {
     var data = [{ type: 'scatter',
     x: [0], y:[0],
         marker: {size: 25, color:'F37370'},
-        showlegend: false},
-        // name: 'Scrubs per Week',
-        // text: level,
-        // hoverinfo: 'text'},
+        showlegend: false,
+        hoverinfo: 'text'},
+
     { values: [10, 10, 10, 10, 10, 10, 10, 10, 10, 90],
     rotation: 90,
     text: ['9', '8', '7', '6', '5', '4', '3', '2', '1',''],
