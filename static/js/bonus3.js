@@ -34,7 +34,7 @@ function buildGauge(sample) {
     text: ['9', '8', '7', '6', '5', '4', '3', '2', '1',''],
     textinfo: 'text',
     textposition:'inside',
-    marker: {colors:['rgba(24, 60, 144, 1)', 'rgba(48, 80, 155, 1)', 'rgba(72, 100, 167, 1)',
+    marker: {colors:['rgba(20, 60, 144, 1)', 'rgba(48, 80, 155, 1)', 'rgba(72, 100, 167, 1)',
                     'rgba(96, 121, 179, 1)', 'rgba(120, 141, 191, 1)', 'rgba(144, 161, 201, 1)',
                     'rgba(168, 182, 214, 1)', 'rgba(192, 202, 226, 1)', 'rgba(216, 222, 238, 1)',
                     'rgba(255, 255, 255, 1)']},
@@ -58,9 +58,9 @@ function buildGauge(sample) {
     title: 'Scrubs per Week',
 
     xaxis: {zeroline:false, showticklabels:false,
-                showgrid: false, range: [-1, 1]},
+                showgrid: false, range: [-1, 1], fixedrange: true},
     yaxis: {zeroline:false, showticklabels:false,
-                showgrid: false, range: [-1, 1]}
+                showgrid: false, range: [-1, 1], fixedrange: true}
     };
 
     Plotly.newPlot('gauge', data, layout);
