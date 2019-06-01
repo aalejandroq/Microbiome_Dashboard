@@ -12,9 +12,7 @@ function buildGauge(sample) {
     var x = radius * Math.cos(radians);
     var y = radius * Math.sin(radians);
     
-    // Path: may have to change to create a better triangle
-    // var mainPath = 'M -.0 -0.025 0.025 L .0 0.025 -0.025 L ',
-    // var mainPath = 'M 0.235 0.5 L 0.24 0.62L ',
+    // Path: creates the needle of the gauge
     var mainPath = 'M 0 0 L',
         pathX = String(x),
         space = ' ',
@@ -66,8 +64,6 @@ function buildGauge(sample) {
 
     });
 };
-
-
 
 // ******************************************************************************
 // ******************************************************************************

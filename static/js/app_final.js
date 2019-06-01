@@ -21,9 +21,6 @@ function buildMetadata(sample) {
   });
 }
 
-
-
-
 function buildCharts(sample) {
 
   // @TODO: Use `d3.json` to fetch the sample data for the plots
@@ -42,6 +39,15 @@ function buildCharts(sample) {
       marker: {
         size: data.sample_values,
         color: data.otu_ids,
+        colorscale: [[0, 'rgb(243, 115, 112)'], [1, 'rgb(20, 60, 144)']],
+        showscale: true,
+        colorbar: {
+          thickness: 15,
+          y: 0.5,
+          ypad: 0,
+            title: 'OTU ID',
+            titleside: 'top'
+        },
         sizeref: 0.1,
         sizemode: 'area'
       },
