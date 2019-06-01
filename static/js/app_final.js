@@ -56,7 +56,7 @@ function buildCharts(sample) {
     var layout_bubble = {
       title: `Biodiversity of Sample #${sample}`,
       // showlegend: true
-      xaxis: {title:'OTU ID #'},
+      xaxis: {title:'OTU ID'},
       yaxis: {title: 'Number of Sequences Found'}
     };
 
