@@ -1,5 +1,5 @@
 # Human Microbiome
-A dashboard to explore the biodiversity inhabiting our belly buttons and the factors that might influence microscopic life in humans. The visuaizations in this dashboard are created using using javascript and plotly. The dashboard is hosted using heroku, please see link below.
+A dashboard to explore the biodiversity inhabiting our belly buttons and the factors that might influence microscopic life in humans. The visuaizations in this dashboard are created using using javascript and plotly. The dashboard is hosted using Heroku, please see link below.
 
 https://bbmicrobiome.herokuapp.com/
 
