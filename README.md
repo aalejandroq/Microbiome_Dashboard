@@ -8,4 +8,4 @@ The data used in this project comes from Belly Button Biodiversity DataSet. http
  
 The project was started in 2011 at North Carolina State University with the goal of investigating the microbes inhabiting our navels and the factors that might influence the microscopic life calling this protected, moist patch of skin home.
 
-The data comes from hundreds of samples takes from individuals around Raleigh, NC area.
+The data comes from hundreds of samples takes from individuals around Raleigh, North Carolina area.
